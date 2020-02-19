@@ -1,0 +1,50 @@
+.wrapper {
+  padding: 20px 50px;
+  font-family: 'Merienda', cursive;
+}
+
+.img {
+  margin-right: 30px;
+}
+
+.content p {
+  font-size: 20px;
+}
+
+.btn {
+  width: 91px;
+  padding: 8px;
+  font-size: 15px;
+  font-family: 'Merienda', cursive;
+  border: 1px solid #f79992;
+  box-shadow: 0 0 10px #f79992;
+  border-radius: 45%;
+  color: #f79992;
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+}
+
+.block {
+  display: flex;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.link {
+  padding: 10px 15px;
+  border-radius: 10px 10px 0 0;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0);
+  color: #f79992;
+}
+
+.link:active {
+  color: white;
+}

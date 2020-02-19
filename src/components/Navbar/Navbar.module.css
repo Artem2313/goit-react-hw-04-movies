@@ -1,0 +1,23 @@
+.nav {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  background-color: #f79992;
+  padding: 20px 50px;
+  justify-content: flex-start;
+}
+
+.itemNav:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Merienda', cursive;
+}
+
+.navLink:active {
+  color: rgba(255, 102, 0, 0.911);
+}

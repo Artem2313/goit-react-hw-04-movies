@@ -1,0 +1,20 @@
+.list {
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(255, 255, 255);
+  padding: 20px 0 0 80px;
+}
+
+.blockImg {
+  width: 300px;
+  height: 450px;
+  background-image: url('https://sdmg.com/wp-content/uploads/2017/04/picture-not-available.jpg?x70576');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item {
+  margin-right: 40px;
+}
