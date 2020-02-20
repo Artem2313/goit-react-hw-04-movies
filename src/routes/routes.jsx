@@ -15,7 +15,7 @@ const MovieDetailsPage = lazy(() =>
 );
 const DoesNotExistPage = lazy(() =>
   import(
-    '../pages/DoesNotExistPage/DoesNotExistPage' /* webpackChunkName: "not-found-page" */
+    '../pages/DoesNotExistPage/DoesNotExistPage' /* webpackChunkName: "does-not-exist-page" */
   ),
 );
 
